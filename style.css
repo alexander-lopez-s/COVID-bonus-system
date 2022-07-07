@@ -1,1 +1,51 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: url("https://pikwizard.com/photos/two-doctors-discussing-medical-report--0f03c9452981395f0062a9bf1211bb76-m.jpg");
+    background-size: cover;
+   }
+.container {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
 
+h1 {
+    text-align: center;
+    color: rgb(18, 14, 223);
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(247, 202, 4);
+    text-shadow: 2px 2px black;
+    
+}
+
+form label, input, button, p {
+    font-size: 25px;
+    margin-left: 575px;
+    border-radius: 5px;
+    border-color: rgb(4, 24, 197);
+    
+}
+
+button {
+    background-color: rgb(62, 204, 240);
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: rgb(25, 235, 25);
+}
+
+
+.showResults {
+    color: rgb(214, 64, 64);
+    font-weight: bold;
+    
+}
